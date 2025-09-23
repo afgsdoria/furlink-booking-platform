@@ -194,7 +194,7 @@ describe('useAuth', () => {
           single: vi.fn().mockResolvedValue({ 
             data: mockProfile, 
             error: null 
-          }))
+          })
         }))
       }))
     })
